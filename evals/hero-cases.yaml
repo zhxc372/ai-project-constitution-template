@@ -1,0 +1,19 @@
+# Hero cases: core end-to-end cases the project must always handle well
+
+cases:
+  - id: H001
+    input: "[最核心的真实用户请求]"
+    expected_behavior:
+      - "[必须做的动作 1]"
+      - "[必须做的动作 2]"
+      - "[必须输出的内容]"
+    forbidden_behavior:
+      - "[禁止动作 1]"
+      - "[禁止动作 2]"
+
+  - id: H002
+    input: "[另一个核心请求]"
+    expected_behavior:
+      - "[必须做的动作]"
+    forbidden_behavior:
+      - "[禁止动作]"
