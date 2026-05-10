@@ -1,0 +1,12 @@
+# Positive cases: should trigger the skill/workflow
+
+cases:
+  - id: P001
+    input: "[填写应该触发的用户请求]"
+    expected_skill: "[skill-name]"
+    reason: "[为什么应该触发]"
+
+  - id: P002
+    input: "[填写应该触发的用户请求]"
+    expected_skill: "[skill-name]"
+    reason: "[为什么应该触发]"
