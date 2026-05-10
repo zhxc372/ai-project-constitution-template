@@ -1,0 +1,12 @@
+# Negative cases: should NOT trigger the skill/workflow
+
+cases:
+  - id: N001
+    input: "[填写不应该触发的用户请求]"
+    expected_skill: null
+    reason: "[为什么不应该触发]"
+
+  - id: N002
+    input: "[填写不应该触发的用户请求]"
+    expected_skill: null
+    reason: "[为什么不应该触发]"
