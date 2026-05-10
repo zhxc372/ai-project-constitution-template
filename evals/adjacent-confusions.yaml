@@ -1,0 +1,14 @@
+# Adjacent confusions: similar requests that are easy to misroute
+
+cases:
+  - id: A001
+    input: "[相邻但不应触发的请求]"
+    expected_skill: null
+    confusion_with: "[skill-name]"
+    reason: "[为什么容易混淆，为什么不应触发]"
+
+  - id: A002
+    input: "[相邻但应触发另一个 Skill 的请求]"
+    expected_skill: "[other-skill-name]"
+    confusion_with: "[skill-name]"
+    reason: "[为什么应该路由到另一个 Skill]"
